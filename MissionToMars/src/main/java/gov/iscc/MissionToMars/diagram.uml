@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="146.00833333333333" y="750.0">gov.iscc.MissionToMars.model.Country</node>
+    <node x="437.0083333333333" y="1268.0">gov.iscc.MissionToMars.model.Mission</node>
+    <node x="1116.0083333333332" y="750.0">gov.iscc.MissionToMars.model.Requirement</node>
+    <node x="502.0083333333333" y="815.0">gov.iscc.MissionToMars.model.Administrator</node>
+    <node x="0.0" y="1202.0">gov.iscc.MissionToMars.model.Candidate</node>
+    <node x="884.0083333333333" y="541.0">gov.iscc.MissionToMars.model.Shuttle</node>
+    <node x="299.25" y="0.0">gov.iscc.MissionToMars.model.User</node>
+    <node x="1377.0083333333332" y="0.0">gov.iscc.MissionToMars.model.Qualification</node>
+    <node x="665.0083333333333" y="750.0">gov.iscc.MissionToMars.model.Job</node>
+    <node x="363.0083333333333" y="827.0">gov.iscc.MissionToMars.model.Coordinator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="gov.iscc.MissionToMars.model.Mission" target="gov.iscc.MissionToMars.model.Requirement">
+      <point x="117.0" y="-454.5" />
+      <point x="690.5083333333333" y="1182.0" />
+      <point x="1224.0083333333332" y="1182.0" />
+      <point x="0.0" y="91.5" />
+    </edge>
+    <edge source="gov.iscc.MissionToMars.model.Mission" target="gov.iscc.MissionToMars.model.Job">
+      <point x="39.0" y="-454.5" />
+      <point x="612.5083333333333" y="1162.0" />
+      <point x="764.5083333333333" y="1162.0" />
+      <point x="0.0" y="91.5" />
+    </edge>
+    <edge source="gov.iscc.MissionToMars.model.Mission" target="gov.iscc.MissionToMars.model.Administrator">
+      <point x="0.0" y="-454.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="gov.iscc.MissionToMars.model.Mission" target="gov.iscc.MissionToMars.model.Coordinator">
+      <point x="-39.0" y="-454.5" />
+      <point x="534.5083333333333" y="1162.0" />
+      <point x="422.5083333333333" y="1162.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="gov.iscc.MissionToMars.model.Mission" target="gov.iscc.MissionToMars.model.Shuttle">
+      <point x="78.0" y="-454.5" />
+      <point x="651.5083333333333" y="1172.0" />
+      <point x="990.0083333333333" y="1172.0" />
+      <point x="0.0" y="300.5" />
+    </edge>
+    <edge source="gov.iscc.MissionToMars.model.Candidate" target="gov.iscc.MissionToMars.model.User">
+      <point x="-62.0" y="-520.5" />
+      <point x="62.0" y="1182.0" />
+      <point x="98.08333333333331" y="1182.0" />
+      <point x="98.08333333333331" y="516.0" />
+      <point x="335.25" y="516.0" />
+      <point x="-72.0" y="245.5" />
+    </edge>
+    <edge source="gov.iscc.MissionToMars.model.Candidate" target="gov.iscc.MissionToMars.model.Country">
+      <point x="62.0" y="-520.5" />
+      <point x="186.0" y="1182.0" />
+      <point x="178.8416666666667" y="1182.0" />
+      <point x="-65.66666666666663" y="91.5" />
+    </edge>
+    <edge source="gov.iscc.MissionToMars.model.Administrator" target="gov.iscc.MissionToMars.model.User">
+      <point x="0.0" y="-26.5" />
+      <point x="573.5083333333333" y="516.0" />
+      <point x="479.25" y="516.0" />
+      <point x="72.0" y="245.5" />
+    </edge>
+    <edge source="gov.iscc.MissionToMars.model.Mission" target="gov.iscc.MissionToMars.model.Country">
+      <point x="-117.0" y="-454.5" />
+      <point x="456.5083333333333" y="1182.0" />
+      <point x="244.50833333333333" y="1182.0" />
+      <point x="0.0" y="91.5" />
+    </edge>
+    <edge source="gov.iscc.MissionToMars.model.Coordinator" target="gov.iscc.MissionToMars.model.User">
+      <point x="0.0" y="-14.5" />
+      <point x="422.5083333333333" y="516.0" />
+      <point x="407.25" y="516.0" />
+      <point x="0.0" y="245.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000004" x="34.94444444444434" y="300.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
